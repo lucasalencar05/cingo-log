@@ -37,7 +37,7 @@ export class DataService {
     this.httpClient.post(this.API_URL_LOG, log).subscribe(data => {
       this.dialogData = data;
        this.toastr.success('Salvo com sucesso!');
-       window.location.reload()
+       setTimeout(()=>{window.location.reload();}, 1000);
       },
       (err: HttpErrorResponse) => {
         this.toastr.error('Error: ' + err.name + ' ' + err.message);
