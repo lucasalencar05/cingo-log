@@ -19,8 +19,7 @@ aguardar subir as instâncias do Tomcat e MySQL.
 "npm install" e "ng serve".
 3. Acesse http://localhost:4200. 
 
-![Alt Text](http://localhost:4200)
-
+## FRONT:
+http://localhost:4200
 ## REST API:
-
-![Alt Text](http://localhost:8080/logs)
+http://localhost:8080/logs
