@@ -23,3 +23,5 @@ aguardar subir as instâncias do Tomcat e MySQL.
 http://localhost:4200
 ## REST API:
 http://localhost:8080/logs
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/41558261/187046443-f6762f79-a65d-43c7-a219-8d9c3828ada0.gif)
