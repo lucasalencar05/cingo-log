@@ -3,7 +3,7 @@
 # Pré-requisitos para execução
 1. Docker instalado no PC
 2. docker-compose
-# Para executar projeto de log
+# Para executar a API de log
 1. Clone o projeto.
 2. Abir o terminal na pasta backend e executar a linha de comando "docker-compose up",
 aguardar subir as instâncias do Tomcat e MySQL.
@@ -13,7 +13,7 @@ aguardar subir as instâncias do Tomcat e MySQL.
 
 # Pré-requisitos para execução
 1. Angular CLI
-# Para executar projeto de log
+# Para executar frontend
 1. Clone o projeto.
 2. Abir o terminal na pasta frontend e executar a linha de comando 
 "npm install" e "ng serve".
