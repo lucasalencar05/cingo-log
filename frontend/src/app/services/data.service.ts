@@ -29,7 +29,7 @@ export class DataService {
         this.dataLog.next(data);
       },
       (error: HttpErrorResponse) => {
-      console.log (error.name + ' ' + error.message);
+        this.toastr.error('Error: ' + error.name + ' ' + error.message);
       });
   }
   
@@ -37,7 +37,7 @@ export class DataService {
     this.httpClient.post(this.API_URL_LOG, log).subscribe(data => {
       this.dialogData = data;
        this.toastr.success('Salvo com sucesso!');
-       this.getAllLogs();
+       window.location.reload()
       },
       (err: HttpErrorResponse) => {
         this.toastr.error('Error: ' + err.name + ' ' + err.message);
